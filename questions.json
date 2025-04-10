@@ -1,0 +1,42 @@
+[
+  {
+    "question": 1,
+    "query": "On the request of __________ Jyotiba Phule opened a branch of Satyashodhak Samaj in Mumbai in 1874. Please fill in the blank using the following options. Answer Choices: (1) Vyanku Kalewar, (2) Krishnrao Bhalekar, (3) Meghaji Lokhande, (4) Vitthal Shinde",
+    "gold": 2
+  },
+  {
+    "question": 2,
+    "query": "The following persons were members of which Secret Society? (a) Mahadeo Vinayak Ranade, (b) Damodar Bhide, (c) Khanderao Sathe, (d) Balwant Natu. Choose from the following options: (1) Paramahansa Sabha, (2) Chaphekar Club, (3) Star Club, (4) Abhinav Bharat Society",
+    "gold": 2
+  },
+  {
+    "question": 3,
+    "query": "Govind Babaji Joshi was a remarkable social worker in the second half of the 19th century Maharashtra. He established _______ which had in 1862 pioneered a Co-operative Credit Society. Fill in the missing work using the following options: (1) Mumbai Association, (2) Vasai Association, (3) Thane Association, (4) Western India Association",
+    "gold": 2
+  },
+  {
+    "question": 4,
+    "query": "The Christian missionaries founded the Baptist Mission College at ____ in 1818. Choose from the following options: (1) Serampore, (2) Calcutta, (3) Bombay, (4) Madras",
+    "gold": 1
+  },
+  {
+    "question": 6,
+    "query": "______ this press was established in 1831 in Mumbai and is considered as one of the earliest presses established by Maharashtrian persons. Fill in the blank using the following options: (1) Bhaskar Pandurang Press, (2) Ganpat Krishnaji Press, (3) Nirnaysagar Press, (4) Jnyanoday Press",
+    "gold": 2
+  },
+  {
+    "question": 7,
+    "query": "Who established the Hindu Missionary Society? Choose from the following options: (1) Gangadhar Shastri Jambehekar, (2) Gajananrao Vaidya, (3) Jyotiba Phule, (4) Mahadev Govind Ranade",
+    "gold": 2
+  },
+  {
+    "question": 8,
+    "query": "Syed Ahmed Khan established what for translating useful English books into Urdu? Choose from the following options: (1) The Language Centre, (2) the Language Society, (3) The Scientific Society, (4) the Scientific Centre",
+    "gold": 3
+  },
+  {
+    "question": 11,
+    "query": "Which secretary of the Calcutta Medical College advised the plan for establishing a University to conduct examinations? Choose from the following options: (1) Charles Wood, (2) Frederick John Mount, (3) David Hare, (4) William Carey",
+    "gold": 2
+  }
+] 
