@@ -1,37 +1,21 @@
-# Byte-compiled / optimized / DLL files
+# Python virtual environments
+openai-env/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
-.Python
-build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+build/
 *.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
-openai-env/
-venv/
-ENV/
-env/
-
-# Environment variables
-.env
 
 # Local development settings
 .idea/
@@ -41,9 +25,4 @@ env/
 
 # OS specific files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db 
