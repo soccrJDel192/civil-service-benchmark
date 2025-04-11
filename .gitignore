@@ -3,6 +3,9 @@ openai-env/
 venv/
 env/
 ENV/
+claude-env/
+hf-local/
+hugging-face-env/
 
 # Environment variables
 .env
