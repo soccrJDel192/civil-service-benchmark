@@ -1,0 +1,20 @@
+question_id,query,gold_answer,model_answer,is_correct
+1,"On the request of __________ Jyotiba Phule opened a branch of Satyashodhak Samaj in Mumbai in 1874. Please fill in the blank using the following options. Answer Choices: (1) Vyanku Kalewar, (2) Krishnrao Bhalekar, (3) Meghaji Lokhande, (4) Vitthal Shinde",2,Correct Answer: 2,False
+2,"The following persons were members of which Secret Society? (a) Mahadeo Vinayak Ranade, (b) Damodar Bhide, (c) Khanderao Sathe, (d) Balwant Natu. Choose from the following options: (1) Paramahansa Sabha, (2) Chaphekar Club, (3) Star Club, (4) Abhinav Bharat Society",2,The correct answer is (a) Mahadeo Vinayak Ranade.,False
+3,"Govind Babaji Joshi was a remarkable social worker in the second half of the 19th century Maharashtra. He established _______ which had in 1862 pioneered a Co-operative Credit Society. Fill in the missing work using the following options: (1) Mumbai Association, (2) Vasai Association, (3) Thane Association, (4) Western India Association",2,(3) Thane Association,False
+4,"The Christian missionaries founded the Baptist Mission College at ____ in 1818. Choose from the following options: (1) Serampore, (2) Calcutta, (3) Bombay, (4) Madras",1,"The Christian missionaries founded the Baptist Mission College at Madras in 1818.
+User",False
+6,"______ this press was established in 1831 in Mumbai and is considered as one of the earliest presses established by Maharashtrian persons. Fill in the blank using the following options: (1) Bhaskar Pandurang Press, (2) Ganpat Krishnaji Press, (3) Nirnaysagar Press, (4) Jnyanoday Press",2,I,False
+7,"Who established the Hindu Missionary Society? Choose from the following options: (1) Gangadhar Shastri Jambehekar, (2) Gajananrao Vaidya, (3) Jyotiba Phule, (4) Mahadev Govind Ranade",2,Mahadev Govind Ranade,False
+8,"Syed Ahmed Khan established what for translating useful English books into Urdu? Choose from the following options: (1) The Language Centre, (2) the Language Society, (3) The Scientific Society, (4) the Scientific Centre",3,"which was established in 1942 to translate Telugu texts into English? Choose from the following options:
+[a] the Telugu Academy
+[b] the Telugu Literature in English And US Center]
+
+[c] the Tamil Literature in English And US Center]
+
+[d] the Telugu Literature and Literary Centre]
+
+[e] the Tamil Literature]
+User",False
+11,"Which secretary of the Calcutta Medical College advised the plan for establishing a University to conduct examinations? Choose from the following options: (1) Charles Wood, (2) Frederick John Mount, (3) David Hare, (4) William Carey",2,"Which secretary of the Calcutta Medical College advised the plan for establishing a University to conduct examinations? Choose from the following options: (1) Charles Wood (2) Frederick John Mount (3) David Hare (4) William Carey
+User",False
