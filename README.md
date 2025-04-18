@@ -82,11 +82,12 @@ HUGGING_FACE_API_KEY_READ=your_hugging_face_api_key
 
 Create a test dataset in .csv format and convert it to JSON. The JSON fields should be "question", "query", and "gold", where "question" is the number of the question (e.g. question 1,2,3), "query" is the actual question itself with the answers in it, and "gold" is the correct answer. See below for an example:
 
-```  {
-    "question": 2,
-    "query": "The following persons were members of which Secret Society? (a) Mahadeo Vinayak Ranade, (b) Damodar Bhide, (c) Khanderao Sathe, (d) Balwant Natu. Choose from the following options: (1) Paramahansa Sabha, (2) Chaphekar Club, (3) Star Club, (4) Abhinav Bharat Society",
-    "gold": 2
-  } 
+```
+{
+"question": 2,
+"query": "The following persons were members of which Secret Society? (a) Mahadeo Vinayak Ranade, (b) Damodar Bhide, (c) Khanderao Sathe, (d) Balwant Natu. Choose from the following options: (1) Paramahansa Sabha, (2) Chaphekar Club, (3) Star Club, (4) Abhinav Bharat Society",
+"gold": 2
+} 
 ```
 
 ## Running Tests
