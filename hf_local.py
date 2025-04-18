@@ -50,15 +50,17 @@ is_valid = test_api_key()
 
 if is_valid:
     try:
-        print("\nAttempting to load the sarvam-1 model...")
+        print("\nAttempting to load the Krutrim model...")
+        
+        model_id = "krutrim-ai-labs/Krutrim-2-instruct"
         
         # Load model and tokenizer
         print("Loading tokenizer...")
-        tokenizer = AutoTokenizer.from_pretrained("sarvamai/sarvam-1")
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
         print("Tokenizer loaded successfully!")
         
         print("Loading model...")
-        model = AutoModelForCausalLM.from_pretrained("sarvamai/sarvam-1")
+        model = AutoModelForCausalLM.from_pretrained(model_id)
         print("Model loaded successfully!")
 
         # Load questions from JSON file
@@ -85,10 +87,15 @@ if is_valid:
             
             # Tokenize the prompt
             inputs = tokenizer(prompt, return_tensors="pt")
+            inputs.pop("token_type_ids", None)
             
             # Generate with no_grad to save memory
             with torch.no_grad():
-                outputs = model.generate(**inputs, max_new_tokens=10, temperature=0.1)
+                outputs = model.generate(
+                    **inputs,
+                    max_length=4096,
+                    temperature=0.3
+                )
             
             # Decode the result
             result = tokenizer.decode(outputs[0], skip_special_tokens=True)
@@ -122,7 +129,7 @@ if is_valid:
         print(f"Accuracy: {accuracy:.2f}%")
 
         # Export results to CSV
-        csv_filename = 'sarvam_results.csv'
+        csv_filename = 'krutrim_results.csv'
         with open(csv_filename, 'w', newline='') as csvfile:
             fieldnames = ['question_id', 'query', 'gold_answer', 'model_answer', 'is_correct']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
